@@ -1,30 +1,32 @@
 
-/* all h2 elements */
-h2 {
-    color: red;
-    text-align: center;
-  }
+*{
+  box-sizing: border-box;
+  margin-right: 0;
+
+}
+body {
+  background-color: gray;
+  margin: 0cm;
   
+}
+
+#box {
+  background-color: blue;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid lightblue;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 50px;
+  overflow: auto;
   
-  /* all with class="highlight" */
-  .highlight {
-    font-size: 20px;
-    font-weight: bold;
-    font-style: italic;
-    background-color: green;
-    opacity: .6;
-  }
+}
+#content {
+  background-color: #90EE90; /*green*/
   
-  /* element with id="mainPoint" */
-  #mainPoint {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: red;
-    opacity: .7;
-  }
-  
-  /* all p AND h1 elements */
-p, h1 {
-    color: blue;
-    text-align: center;
-  }
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
